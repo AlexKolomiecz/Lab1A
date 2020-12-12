@@ -25,7 +25,7 @@ public class Main {
             itemsSoFar++;
         }
 
-        System.out.println("Давайте посчитаем количество продуктов разного типа.");
+        System.out.println("Давайте глянем, что вы там заказали.");
         for (int i =0; i<20;i++) {
             if (breakfast[i] != null) {
                 if (breakfast[i].equals(CompC)) {
@@ -41,7 +41,6 @@ public class Main {
                 break;
         }
         System.out.println("Ваш завтрак состоит из "+AppleType+" яблок, "+LemonadeType+" видов лимонадов и "+CheeseType+ " порций сыров.");
-
         for (Food item: breakfast) {
             if (item != null) {
                 item.consume();
