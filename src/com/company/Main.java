@@ -40,7 +40,7 @@ public class Main {
             } else
                 break;
         }
-        System.out.println("Ваш завтрак состоит из "+AppleType+" яблок, "+LemonadeType+" лимонадов и "+CheeseType+ " сыров.");
+        System.out.println("Ваш завтрак состоит из "+AppleType+" яблок, "+LemonadeType+" видов лимонадов и "+CheeseType+ " порций сыров.");
 
         for (Food item: breakfast) {
             if (item != null) {
