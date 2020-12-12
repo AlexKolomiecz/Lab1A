@@ -24,7 +24,7 @@ public class Main {
             }
             itemsSoFar++;
         }
-
+        System.out.println("Добро пожаловать, заказывайте.");
         System.out.println("Давайте глянем, что вы там заказали.");
         for (int i =0; i<20;i++) {
             if (breakfast[i] != null) {
